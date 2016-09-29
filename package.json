@@ -1,0 +1,33 @@
+{
+  "name": "mocha-tts-reporter-test",
+  "version": "0.0.1",
+  "description": "tests for mocha-tts-reporter",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coyotebringsfire/mocha-tts-reporter-test.git"
+  },
+  "keywords": [
+    "mocha",
+    "reporter",
+    "tts",
+    "test"
+  ],
+  "author": "aumkara@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coyotebringsfire/mocha-tts-reporter-test/issues"
+  },
+  "homepage": "https://github.com/coyotebringsfire/mocha-tts-reporter-test",
+  "dependencies": {
+    "async": "^0.9.0",
+    "debug": "^2.2.0",
+    "mocha": "^2.2.5",
+    "mocha-multi": "^0.7.1",
+    "mocha-tts-reporter": "file:../mocha-tts-reporter",
+    "should": "^6.0.1"
+  }
+}
